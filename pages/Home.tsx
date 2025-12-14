@@ -1,5 +1,5 @@
 import React from 'react';
-import { CategoryCard } from '@/components/CategoryCard';
+import { CategoryCard } from '@components/CategoryCard';
 import { allCategories } from '@/data';
 import * as Icons from 'lucide-react';
 

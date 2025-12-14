@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
-import { Home } from '@/pages/Home';
-import { About } from '@/pages/About';
-import { Contact } from '@/pages/Contact';
-import { CategoryPage } from '@/pages/CategoryPage';
+import { Header } from '@components/Header';
+import { Footer } from '@components/Footer';
+import { Home } from '@pages/Home';
+import { About } from '@pages/About';
+import { Contact } from '@pages/Contact';
+import { CategoryPage } from '@pages/CategoryPage';
 
 // Scroll to top on route change
 const ScrollToTop = () => {

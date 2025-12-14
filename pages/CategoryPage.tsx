@@ -3,7 +3,7 @@ import { useParams, Navigate } from 'react-router-dom';
 import { Search, ChevronDown } from 'lucide-react';
 import * as Icons from 'lucide-react';
 import { allCategories } from '@/data';
-import { ButtonCard } from '@/components/ButtonCard';
+import { ButtonCard } from '@components/ButtonCard';
 
 export const CategoryPage: React.FC = () => {
   const { categoryId } = useParams<{ categoryId: string }>();

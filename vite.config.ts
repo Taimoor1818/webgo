@@ -18,6 +18,8 @@ export default defineConfig(({ mode }) => {
       resolve: {
         alias: {
           '@': path.resolve(__dirname, '.'),
+          '@components': path.resolve(__dirname, './components'),
+          '@pages': path.resolve(__dirname, './pages')
         }
       },
       build: {
